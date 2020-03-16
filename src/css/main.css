@@ -1,0 +1,240 @@
+body {
+    background-color: white;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background:linear-gradient(rgba( 0 ,0 ,150, 0.5), rgba(0, 0 ,50, 0.5)),url(taxi.jpg);
+    
+}
+
+
+h1 {
+    font-size: 40px;
+    margin: 50px auto;
+    letter-spacing: 3px;
+}
+p{
+    color: rgb(255, 255, 255);
+}
+.container {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    background-color: black;
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    padding: 30px 120px 30px 30px;
+    box-shadow: 0 -4px 8px 0 rgba(53, 27, 27, 0.2), 0 -6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.button #addPerson, .button #showData{
+    margin: 10px -25px 10px 50px;
+}
+#personData {
+    position: relative;
+    top: -1035px;
+    left: 25%;
+    width: 25%;
+    margin: 0 auto;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+   
+    
+}
+.control-label:after {
+    content:"*";
+    color:red;
+  }
+.contact label {
+    color: rgb(235, 233, 233);
+    font-weight: 600;
+    font-size: 14px;
+}
+.outputContainer label {
+    color: rgb(235, 233, 233);
+    font-weight: 600;
+    font-size: 17px;
+}
+.contact input[type="text"], .contact input[type="email"], .contact textarea {
+    width: 94.5%;
+    padding: 10px 93px 10px 10px;
+    margin: 10px 0 20px;
+    outline: none;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.outputContainer{
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+
+
+}
+
+.contact textarea {
+    height: 100px;
+}
+.contact ::-webkit-input-placeholder {
+    color: #666;
+}
+.contact ::-moz-placeholder {
+    color: #666;
+}
+.contact ::-moz-placeholder {
+    color: #666;
+}
+.contact ::-ms-input-placeholder {
+    color: #666;
+}
+.send-button input[type="submit"] {
+    padding: 10px 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    color: #FFF;
+    background-color: #353535;
+    cursor: pointer;
+}
+.send-button input[type="submit"]:hover {
+    background-color: rgb(104, 201, 233);
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    margin: 50px 20px 30px;
+}
+.footer p a {
+    color: #FFF;
+}
+.footer p {
+    line-height: 30px;
+}
+.footer p a:hover {
+    color: #F96D6E;
+}
+
+/*--Mobile Responsive --*/
+@media screen and (max-width: 1920px) {
+    h1 {
+        margin: 75px auto;
+    }
+    .container {
+        width: 25%;
+    }
+    .footer {
+        margin-top: 75px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    h1 {
+        margin: 50px auto;
+    }
+    .container {
+        width: 30%;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 1367px) {
+    .container {
+        width: 35%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 966px) {
+    h1 {
+        letter-spacing: 2px;
+    }
+}
+@media screen and (max-width: 853px) {
+    .container {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .container {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 667px) {
+    h1 {
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width: 603px) {
+    .container {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 568px) {
+    h1 {
+        letter-spacing: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 35px;
+        margin: 40px 0;
+    }
+    .container {
+        width: 75%;
+    }
+    .contact input[type="text"], .contact input[type="email"], .contact textarea {
+        width: 93%;
+    }
+}
+@media screen and (max-width: 414px) {
+    h1 {
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    .contact label {
+        font-size: 13px;
+    }
+    .contact input[type="text"], .contact input[type="email"], .contact textarea {
+        width: 91.5%;
+        font-size: 12px;
+        margin: 5px 0 15px;
+    }
+    .footer p {
+        line-height: 25px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 384px) {
+    .container {
+        width: 85%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 25px;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
